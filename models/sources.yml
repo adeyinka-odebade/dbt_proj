@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: source_schema
+    tables:
+      - name: aud_data

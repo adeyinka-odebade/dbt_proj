@@ -1,0 +1,11 @@
+version: 1
+
+models:
+  - name: bronze_aud_data
+    tests:
+      - unique:
+          column_name: 'aud_id'
+      - not_null:
+          column_name: 'aud_id'
+#      - not_null:
+#          column_name: 'aud_id'
