@@ -6,6 +6,6 @@ models:
       - unique:
           column_name: 'aud_id'
       - not_null:
-          column_name: 'aud_id'
+          column_name: 'email'
       - not_null:
           column_name: 'load_date'
