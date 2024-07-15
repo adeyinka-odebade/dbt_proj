@@ -5,4 +5,4 @@
 ) }}
 
 SELECT *
-FROM {{ ref('aud_data20240702_143839') }}
+FROM {{ ref('aud_data20240715_164619') }}

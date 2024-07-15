@@ -9,7 +9,7 @@ LOCATION_SET = ['India', 'USA', 'China', 'Russia', 'Israel', 'UK', 'Germany', 'U
                 'Vietnam', 'Australia']
 DEVICE_CAT = ['Web', 'Mobile', 'TV', 'Others']
 VIDEO_CAT_SET = ["TV", "Movies", "Trailer", "Music", "Tech", "Review", "Drama"]
-NUM_ROWS = 100
+NUM_ROWS = 200
 SEED = 47
 
 file_path = f"data/aud_data{time.strftime('%Y%m%d_%H%M%S')}"
