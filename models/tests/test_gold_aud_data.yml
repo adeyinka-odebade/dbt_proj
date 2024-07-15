@@ -1,0 +1,20 @@
+version: 1
+
+models:
+  - name: gold_aud_data_pii_data
+    tests:
+      - unique:
+          column_name: 'aud_id'
+      - not_null:
+          column_name: 'aud_id'
+      - not_null:
+          column_name: 'load_date'
+
+  - name: gold_aud_data_non_pii_data
+    tests:
+      - unique:
+          column_name: 'aud_id'
+      - not_null:
+          column_name: 'aud_id'
+      - not_null:
+          column_name: 'load_date'
